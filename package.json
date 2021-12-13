@@ -34,7 +34,5 @@
     "webpack-dev-server": "latest"
   },
   "pre-commit": [
-    "lint",
-    "test"
   ]
 }
