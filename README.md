@@ -1,35 +1,10 @@
-# Gamedev Patterns and Algorithms in Action with TypeScript
+# Inert
+Minimalistic tower defense in the browser. 
 
-> Applying Principles of Clean Architecture to Enterprise Frontend Application
+## Dev
 
-## Project setup
-- install Node.js (the version is specified in package.json)
-- if you have nvm installed: 
+```shell
+npm i
+npm run dev
+# open http://localhost:1234/index.html
 ```
-nvm use
-```
-- Install dependencies
-```
-npm install
-```
-
-## Compiles and hot-reloads for development
-```
-npm start
-```
-
-## Run your unit tests
-```
-npm t
-```
-## Lints and fixes files
-```
-npm run lint
-```
-
-## Tech stack
-- TypeScript 
-- Jest / ESLint
-
-## Links
-[Complete tutorial](ADD LINK)
