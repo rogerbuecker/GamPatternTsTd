@@ -1,33 +1,37 @@
 {
   "name": "rtd",
   "version": "1.0.0-beta.0",
-  "description": "RTD Tower Defense",
+  "description": "",
+  "main": "index.html",
   "scripts": {
-    "start": "parcel serve public/index.pug public/img/*.png",
-    "build": "parcel build public/index.pug public/img/*.png",
+    "start": "webpack-dev-server --config webpack.config.js",
     "test": "jest",
     "lint": "eslint ./src/**/*.ts"
   },
-  "keywords": [],
-  "author": "Roger Bücker",
+  "author": "",
   "license": "ISC",
-  "browserslist": [
-    "last 1 Chrome versions"
-  ],
   "devDependencies": {
-    "@parcel/transformer-less": "latest",
-    "@parcel/transformer-pug": "latest",
-    "less": "latest",
-    "parcel": "latest",
-    "pug": "latest",
-    "typescript": "latest",
     "@types/jest": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "canvas": "latest",
+    "clean-webpack-plugin": "latest",
+    "css-loader": "^6.5.1",
     "eslint": "latest",
+    "html-webpack-plugin": "^5.5.0",
     "jest": "latest",
     "pre-commit": "latest",
-    "ts-jest": "latest"
+    "ts-jest": "^26.1.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "latest",
+    "webpack": "^5.65.0",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
   },
   "pre-commit": [
     "lint",

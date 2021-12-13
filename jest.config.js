@@ -1,3 +1,6 @@
+// Sync object
+/** @type {import('@jest/types').Config.InitialOptions} */
+
 module.exports = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'

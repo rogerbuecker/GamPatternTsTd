@@ -30,6 +30,10 @@ module.exports = {
                 allowHigherOrderFunctions: true,
             }
         ],
+        '@typescript-eslint/interface-name-prefix': [
+            'error',
+            'always'
+        ],
         'no-unused-vars': 'off', // note you must disable the base rule as it can report incorrect errors
         '@typescript-eslint/no-unused-vars': [
             'error',
